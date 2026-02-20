@@ -58,7 +58,7 @@ function createCard(character) {
         `
     <div class="character-card">
         <div class="card-image-container">
-            <img src="${imagePath}" alt="${character.name}" class="character-image" loading="lazy">
+            <img src="${imagePath}" alt="${character.name}" class="character-image" loading="lazy" width="300" height="400" decoding="async">
         </div>
         <div class="card-details">
             <h3>${character.name}</h3>
