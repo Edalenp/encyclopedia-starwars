@@ -12,6 +12,15 @@ const loader = document.getElementById("loader");
 let page = 1;
 let isSearching = false;
 
+// Disable/enable search button based on input content
+
+function syncButtonState() {
+    button.disabled = query.value.trim() === "";
+}
+
+syncButtonState();
+query.addEventListener("input", syncButtonState);
+
 function toggleLoader(show) {
     if (show) loader.classList.remove("hidden");
     else loader.classList.add("hidden");
@@ -111,7 +120,7 @@ form.addEventListener("submit", function (event) {
     }
 
     query.value = "";
-
+    syncButtonState();
 });
 
 // Function to handle pagination

@@ -123,10 +123,15 @@ body::before {
     text-transform: uppercase;
 }
 
-.search-button:hover {
+.search-button:hover:not(:disabled) {
     background: #fff;
     border-color: #fff;
     box-shadow: 0 0 15px rgba(0, 229, 255, 0.8);
+}
+
+.search-button:disabled {
+    opacity: 0.35;
+    cursor: not-allowed;
 }
 
 main {
