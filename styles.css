@@ -105,6 +105,11 @@ body::before {
     transition: all 0.3s;
 }
 
+/* Remove native 'x' clear button on type=search */
+.search-input::-webkit-search-cancel-button {
+    display: none;
+}
+
 .search-input:focus {
     background: rgba(0, 229, 255, 0.1);
     box-shadow: 0 0 15px rgba(0, 229, 255, 0.3);
