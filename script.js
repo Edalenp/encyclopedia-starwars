@@ -62,7 +62,7 @@ async function results(url) {
 // Function to create character-card HTML template 
 
 function createCard(character) {
-    const imagePath = `static/${character.name.toLowerCase()}.jpg`
+    const imagePath = `static/${character.name.toLowerCase()}.webp`
     const cardHTML =
         `
     <div class="character-card">
