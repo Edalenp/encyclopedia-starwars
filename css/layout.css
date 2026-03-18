@@ -16,6 +16,7 @@
 .header a {
     font-size: 36px;
     font-family: 'Star Jedi', sans-serif;
+    font-display: swap;
     color: var(--sw-yellow);
     text-shadow: 0 0 10px rgba(255, 232, 31, 0.6);
     text-decoration: none;
@@ -143,8 +144,9 @@ main {
 
 .character-card h3 {
     color: var(--sw-yellow);
-    font-family: 'Star Jedi', sans-serif;
     font-size: 1.2rem;
+    font-family: 'Star Jedi', sans-serif;
+    font-display: swap;
     text-align: center;
     margin: 0 0 20px 0;
     letter-spacing: 1px;
