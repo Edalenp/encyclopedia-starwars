@@ -3,11 +3,8 @@
     --sw-black: #000000;
     --space-dark: #050510;
     --hologram-blue: #00e5ff;
-    --sith-red: #ff003c;
-    --jedi-green: #2ecc71;
     --glass-bg: rgba(20, 20, 35, 0.7);
     --glass-border: rgba(255, 255, 255, 0.1);
-    --neon-shadow: 0 0 10px rgba(0, 229, 255, 0.5);
 }
 
 * {
